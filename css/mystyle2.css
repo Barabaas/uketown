@@ -1,0 +1,102 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	width: 100%;	
+	height: 100%;
+	
+}
+
+body{
+	font-family: 'Kaushan Script', cursive;
+	background-image: url("../img/Dukes.png");
+	background-repeat: no-repeat;
+	background-position: right; 
+	background-size: 50%;
+
+}
+
+
+/*  this  is a comment line - this  is a comment line - this  is a comment line - */
+
+
+/*  -list decoration- */
+ul li{
+
+	position: relative;
+}
+li{
+	list-style: none;
+	display: block;
+	width: 15%;
+	padding: 0px;
+	margin: 0px;
+	height: 25%;
+	background-size: 70%;
+}
+ul li:hover{
+	height: 25%;
+	width: 100%;
+}
+li#one{
+	background-color: transparent;
+background-image: url("../img/bg1.png"); 	
+}
+
+li#two{
+	background-color: blue;
+	background-image: url("../img/Logo.jpg");
+
+}
+li#three{
+	background-color: lightblue;
+}
+li#four{
+	background-color: blue;
+	background-image: url("../img/bg.png");
+background-position: center;
+background-size: 140%;
+
+}
+
+
+/*  -text decoration- */
+p{
+	padding: 0px;
+	font-family: 'Open Sans', sans-serif;
+font-family: 'Indie Flower', cursive;
+}
+a{
+	color: #FFF;
+}
+a#button{}
+h1{}
+h2{}
+
+
+/*  -Divisions- */
+header{
+	border: 0px;
+	width: 100%;
+	height: 50%;
+	float: top-left;
+	padding: 0px;
+	margin: 0px;
+
+}
+nav{
+	position: fixed;
+}
+article{
+	float: bottom;
+	height: 45%;
+	width: 50%;
+	float: right;
+}
+section#titel{
+	float: right;
+	width: 45%;
+}
+img{
+	width: 50%;
+	float: right;
+}

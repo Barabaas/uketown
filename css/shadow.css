@@ -1,0 +1,14 @@
+a{
+	border-top: 8px 0px 0px 2px;
+	border-color: blue;
+}
+img#kaartkopen{
+float: top;
+padding-left: 15%;
+padding-right: 15%;
+width: 30%;
+height: auto;
+height: auto;position: static;
+clear: left;
+float: right;
+}

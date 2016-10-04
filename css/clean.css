@@ -1,0 +1,187 @@
+@import"galery.css";
+
+/*  body opties*/
+body{
+	font-family: 'Kaushan Script', cursive;
+	font-family: 'Open Sans Condensed', sans-serif;
+	background-color: #fce8ce;
+
+}
+
+
+/*  font opties*/
+
+/*  			P*/
+p{
+	padding-top: 5px;
+	padding-left: 15px;
+	padding-top: 10px;
+	font-family: 'Boogaloo', cursive;
+	color: #fce8ce;
+	text-shadow: 1px 2px 16px #000;
+	font-size: 1.8em;
+	max-width: 90%;
+}
+/*  			H1*/
+h1{
+font-size: 3em;
+margin-top: -30px;
+font-family: 'Kaushan Script', cursive;
+color: #fce8ce;
+	text-shadow: 5px 2px 2px #93224f;
+	padding-bottom: 0px;
+
+}
+h1#logo{
+	padding: 0px;	
+	color: #fce8ce;
+	font-size: 3.3em;
+	text-shadow: 2px 3px 13px #93224f;
+	background-image: url();
+}
+/*  Link opties*/
+a{
+	font-family: 'Kaushan Script', cursive;
+	font-size: 3em;
+	color: white;
+	font-size: 2em;
+	float: right;
+	padding-right: 50%;
+}
+/*  HOVER opties*/
+
+a:hover{
+	color: #93224f;
+}
+ul{
+width: 100%;
+}
+/*  LIST opties*/
+
+li{
+		padding-bottom: 25px;
+	display: inline-block;
+	float: left;
+	width: 32%;
+	background-color: #ee5755;
+	border-radius: 0px 0px 25px 25px;
+	padding-bottom: 15px;
+
+}
+/*  div opties*/
+/*  			HEADER*/
+header{
+	height: auto;
+	display: inline-flex;
+	width: 100%;
+	float: all;
+	padding: 0px;
+	margin: 0px;
+	border-color: #fce8ce;
+}
+/*  			NAVIGATIE*/
+nav{
+	border: 5px;
+	border-color: #8e5755;
+}
+/*  			ARTIEKEL*/
+article{
+	background-color: #ee5755;
+	border-radius: 15px;
+	width: 50%;
+	float: left;
+}
+
+/*  			BLOCKS*/
+
+/*  			IMAGES*/
+img{
+	padding: 0px;
+
+	}
+	/*  LOGO*/
+
+img.logo{
+	width: 130px;
+	height: 130px;
+}
+	/*  banner*/
+img.banner{
+	margin: 0%;
+	margin-left: 3%;
+	margin-right: 3%
+	width: 94%;
+	height: auto;
+	border-radius: 15px;
+}
+	/*  page elements*/
+
+img.duke1{
+	margin: 0%;
+	margin-left: -3%;
+	margin-right: 0%;
+	width: 46%;
+	height: auto;
+	border-radius: 50%;
+	opacity: 50%;
+}
+img.duke2{
+	margin: 0%;
+	margin-right: -13%
+	width: 36%;
+	height: auto;
+	border-radius: 50%;
+	float: right;
+		opacity: 50%;
+ 	
+}
+	/*  LOGO*/
+
+img.cmlogo{
+	width: 100px;
+	height: auto;
+	font-size: 3em;
+	float: right;
+}
+img.bannerhead{
+	padding: 0px;
+	height: auto;
+	width: 100%;
+	clear: left;
+	max-height: 150px;
+	float: top;
+}
+figure{
+	width: 100%;
+	height: auto;	
+	padding: 0px;
+	margin: 0px;
+	float: all;
+}
+
+
+/*  			wrapper*/
+div.wrapper{
+	width: 100%;
+	height: auto;
+	padding: 0px;
+	margin: 0px;
+}
+
+/*tabel opties      galery/*/
+td{
+	width: 100%;
+	height: auto;
+}
+tr{
+	float:right; 
+	max-width: 90%;
+}
+
+/*  imported css files opties*/
+
+@import "shadow.css";
+@import 'shadow.css';
+
+
+
